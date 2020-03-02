@@ -75,7 +75,7 @@ session_start();
                         // Remove filename extension: https://stackoverflow.com/a/55624126/6596203
                         $fileNameWithoutExtension = pathinfo($fileName, PATHINFO_FILENAME);
                         // Add your address full url address for the 3D viewer here:
-                        $viewerUrl = '3dviewer.html?file=' . $fileNameWithoutExtension;
+                        $viewerUrl = 'http://localhost/3dviewer.html?file=' . $fileNameWithoutExtension;
 
                         // urlencode the data first before sending for request.
                         $encodedUrl = urlencode($viewerUrl);
