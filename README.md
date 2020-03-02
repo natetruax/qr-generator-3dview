@@ -30,7 +30,7 @@
 ## USAGE
 
 1. Clone this github to your local server:
-2. Modify the url for your 3D Viewer page in qrgenerator.php by setting [`$viewerUrl`](qrgenerator.php#L78) by replacing `http://localhost` in the following line with your webpage url:
+2. Modify the url for your 3D Viewer page in `qrgenerator.php` by setting [`$viewerUrl`](qrgenerator.php#L78) by replacing `http://localhost` in the following line with your webpage url:
 
    ```php
    $viewerUrl = 'http://localhost/3dviewer.html?file=' . $fileNameWithoutExtension;
@@ -40,7 +40,7 @@
    - **upload.php**: [`$uploadFileDir`](upload.php#L34)
    - **3dviewer.html**: [`file`](3dviewer.html#L49)
 
-4. (Optional) Modify the requirement for uploaded files in [upload.php](upload.php). Current settings:
+4. (Optional) Modify the requirement for uploaded files in `upload.php`. Current settings:
    - Only allows `*.mol` and `*.xyz` files. Change by modifying [`$allowedfileExtensions`](upload.php#L25)
    - Only allows files smaller than 5 MB. . Change by modifying [`$fileSize`](upload.php#L27)
 
