@@ -5,6 +5,7 @@
   1. Upload structural files to a pre-determined folder on server via http or https
   2. Generate a QR code to the 3D viewer (using [3DMol.js](http://3dmol.csb.pitt.edu/)) for the uploaded files
 - What this template is **NOT**: it does not optimize (i.e. energy minimization) the structure input so the structures will need to be optimized before uploading.
+<br/>
 
 ## CONTENT
 
@@ -15,17 +16,18 @@
 - [USAGE](#usage)
 - [DEPENDENCIES](#dependencies)
 - [QUESTIONS/COMMENTS](#questionscomments)
-
+<br/>
 
 ## DEMO
 
 ![Demo](docs/demo.gif)
-
+<br/>
 
 ## REQUIREMENTS
 
 - Server access
 - PHP 5+
+<br/>
 
 ## USAGE
 
@@ -58,12 +60,14 @@
    - 3dviewer.html
   
 8. Enjoy!
+<br/>
 
 
 ## DEPENDENCIES
 
 - [3DMol.js](http://3dmol.csb.pitt.edu/)
 - [QR Code Generator](http://goqr.me/)
+<br/>
 
 
 ## QUESTIONS/COMMENTS
