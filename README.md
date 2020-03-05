@@ -1,10 +1,10 @@
 ## OVERVIEW
 
-- This template is inspired by [QRChem](https://qrchem.net) by [Professor Neil Garg](https://garg.chem.ucla.edu/) and his QRChem team. However, this template allows users to upload their own structures and not just structures existing in Pubchem database.
+- This template was inspired by [QRChem](https://qrchem.net) by [Professor Neil Garg](https://garg.chem.ucla.edu/) and his QRChem team. The template differs from QRChem as it allows users to upload their own structures and not just structures existing in Pubchem database.
 - What this template is: This is a simple template for auto generation of QR code for uploaded molecules. This template does:
-  1. Upload structural files to a pre-determined folder on server via http or https
+  1. Upload structural files (.mol or .xyz) to a pre-determined folder on server via http or https
   2. Generate a QR code to the 3D viewer (using [3DMol.js](http://3dmol.csb.pitt.edu/)) for the uploaded files
-- What this template is **NOT**: it does not optimize (i.e. energy minimization) the structure input so the structures will need to be optimized before uploading.
+- What this template is **NOT**: it does not optimize (i.e. energy minimization) the structure input so the structures will need to be optimized before uploading or simply just upload a crystal strucutre.
 <br/>
 
 ## CONTENT
