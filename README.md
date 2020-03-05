@@ -32,7 +32,7 @@
 ## USAGE
 
 1. Clone this github to your local server:
-2. Modify the url for your 3D Viewer page in `qrgenerator.php` by setting [`$viewerUrl`](qrgenerator.php#L78) by replacing `http://localhost` in the following line with your webpage url:
+2. Modify the url for your 3D Viewer page in `qrgenerator.php`. Simply set [`$viewerUrl`](qrgenerator.php#L78) to your webpage url by by replacing `http://localhost` in the following line:
 
    ```php
    $viewerUrl = 'http://localhost/3dviewer.html?file=' . $fileNameWithoutExtension;
